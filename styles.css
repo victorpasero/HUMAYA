@@ -1,0 +1,131 @@
+#fondoDePortada {
+    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.contenedor-primera-seccion h1 {
+    color: #D5AC8C;
+}
+
+.contenedor-primera-seccion {
+    width: 75%;
+    padding: 4rem 2rem;
+}
+
+
+@media screen and (min-width:380px) and (max-width:580px) {
+
+}
+@media screen and (min-width:581px) and (max-width:1200px) {
+
+}
+@media screen and (min-width:1201px) {
+    .contenedor-primera-seccion {
+        width: 30%;
+        background-color: rgba(0,0,0, 0.6);
+        margin: 0 2rem;
+
+    }
+    #fondoDePortada {
+        display: flex;
+        justify-content: flex-end;
+        padding: 2rem;
+    }
+    .contenedor-primera-seccion p {
+        color: #D5AC8C;
+    }
+    .contenedor-primera-seccion button {
+        display: block;
+        margin-top: 3rem !important;
+        margin: auto;
+    }
+    .colorTitulo {
+        background-color: #212529;
+        color: #D5AC8C;
+    }
+    body {
+        background-color: #212529;
+    }
+    #fondoProductos {
+        margin: 0 5rem 0 5rem;
+    }
+    }
+    .fondoProducto {
+        background-color: rgb(10, 9, 9);
+
+    }
+    .imagenProd img {
+        height: calc(100%);
+        object-fit: cover;
+    }
+    .tituloProd {
+        display: flex;
+        justify-content: center;
+        color: #D5AC8C;
+        padding-top: 2.5rem;
+        padding-bottom: 1rem;
+    }
+    .descripcionProd {
+        display: flex;
+        justify-content: start;
+        color: #FFFAF4;
+        text-align: justify;
+        padding: 0 8rem;
+        max-height: fit-content;
+        
+    }
+    .presentacionProd {
+        display: flex;
+        justify-content: start;
+        color: #D5AC8C;
+        font-weight: bold;        
+        text-align: justify;
+        padding: 0 8rem;
+    }
+    .boton {
+        display: block;
+        margin: auto;
+        color: #D5AC8C;
+        background-color: rgb(10, 9, 9);
+        border-color: #D5AC8C;
+        margin-bottom: 2rem;
+    }
+    .productoSec {
+        background-color: #D5AC8C;
+    }
+    .productoSec h3 {
+        display: flex;
+        justify-content: start;
+        color: rgb(119, 55, 9);
+        padding: 2.5rem 0 1rem 8rem;
+    }
+    .productoSec p {
+        display: flex;
+        justify-content: start;
+        color:#FFFAF4;
+        text-align: justify;
+        padding: 0 8rem
+    }
+    .productoSec p:nth-child(3) {
+        font-weight: bold;
+        color: rgb(119, 55, 9);
+    }
+    .productoSec button {
+        display: block;
+        margin:auto;
+        color: rgb(119, 55, 9);
+        border-color: rgb(119, 55, 9);
+        background-color: #D5AC8C;
+    }
+    .fondoProductoSec {
+        background-color: #D5AC8C;
+    }
+    .fondoProductoSec img {
+        padding: 3rem;
+    }
+    img {
+        background-size: cover;
+    }
+   
