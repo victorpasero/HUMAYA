@@ -126,8 +126,14 @@
         width: calc(100%);
         padding: 3rem 3rem 3rem 0
     }
-    img {
-        background-size: cover;
+    .titulo-info-sec {
+        color: #D5AC8C;
+    }
+    .logo-info-sec {
+        display: inline-block;
+        color: #D5AC8C;
+        flex-direction: column;
+
     }
     #contacto {
         margin: 0 5rem 0 5rem;
