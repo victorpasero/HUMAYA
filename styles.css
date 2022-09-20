@@ -129,11 +129,16 @@
     .titulo-info-sec {
         color: #D5AC8C;
     }
-    .logo-info-sec {
-        display: inline-block;
+    .icons {
+        display: flex;
         color: #D5AC8C;
-        flex-direction: column;
-
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .titulo-contacto {
+        color: #D5AC8C;
     }
     #contacto {
         margin: 0 5rem 0 5rem;
@@ -204,4 +209,27 @@
     }
     .tituloEncontranos {
         color: #D5AC8C;
+    }
+    footer h5 {
+        color:#D5AC8C;
+        text-align: start;
+        font-size: larger;
+        padding: 1rem;
+    }
+    footer a {
+        text-decoration: none;
+        color: #D5AC8C;
+    }
+    footer li {
+        text-align: start;
+        list-style-type: none;
+        padding: 0.5rem;
+        font-size: large;
+    }
+    .redes-sociales {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
     }
