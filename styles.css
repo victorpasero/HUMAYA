@@ -13,6 +13,229 @@
     width: 75%;
     padding: 4rem 2rem;
 }
+.colorTitulo {
+    background-color: #212529;
+    color: #D5AC8C;
+}
+body {
+    background-color: #212529;
+}
+#fondoProductos {
+    margin: 0 5rem 0 5rem;
+}
+.fondoProducto {
+    background-color: rgb(10, 9, 9);
+
+}
+.imagenProd img {
+    height: calc(100%);
+    object-fit: cover;
+}
+.tituloProd {
+    display: flex;
+    justify-content: center;
+    color: #D5AC8C;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+.descripcionProd {
+    display: flex;
+    justify-content: start;
+    color: #FFFAF4;
+    text-align: justify;
+    padding: 0 8rem;
+    max-height: fit-content;
+    
+}
+.presentacionProd {
+    display: flex;
+    justify-content: start;
+    color: #D5AC8C;
+    font-weight: bold;        
+    text-align: justify;
+    padding: 0 8rem;
+}
+.btn-producto {
+    display: block;
+    margin: auto;
+    color: #D5AC8C;
+    background-color: rgb(10, 9, 9);
+    border-color: #D5AC8C;
+    margin-bottom: 2rem;
+}
+.btn-producto:hover {
+    background-color:#212529;
+}
+.productoSec {
+    background-color: #D5AC8C;
+}
+.productoSec h3 {
+    display: flex;
+    justify-content: start;
+    color: rgb(119, 55, 9);
+    padding: 2.5rem 0 1rem 8rem;
+}
+.productoSec p {
+    display: flex;
+    justify-content: start;
+    color:#FFFAF4;
+    text-align: justify;
+    padding: 0 8rem
+}
+.productoSec p:nth-child(3) {
+    font-weight: bold;
+    color: rgb(119, 55, 9);
+}
+.productoSec button {
+    display: block;
+    margin:auto;
+    color: rgb(119, 55, 9);
+    border-color: rgb(119, 55, 9);
+    background-color: #D5AC8C;
+}
+.productoSec button:hover {
+    background-color: #b37f56;
+}
+.fondoProductoSec {
+    background-color: #D5AC8C;
+}
+.fondoProductoSec img {
+    width: calc(100%);
+    padding: 3rem 3rem 3rem 0
+}
+.titulo-info-sec {
+    color: #D5AC8C;
+}
+.icons {
+    display: flex;
+    color: #D5AC8C;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.titulo-contacto {
+    color: #D5AC8C;
+}
+#contacto {
+    margin: 0 5rem 0 5rem;
+}
+.img-contacto img {
+    width: calc(100%);
+    height: calc(100%);
+    object-fit: cover;
+}
+.form-contacto {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    color: rgb(119, 55, 9);
+}
+.form-contacto form {
+    display: flex;
+    flex-direction: column;
+}
+.form-contacto input {
+    background-color: rgb(119, 55, 9);
+    color: antiquewhite;
+}
+#consulta {
+    background-color: rgb(119, 55, 9);
+    color: antiquewhite;
+}
+.btn-enviar {
+    display: block;
+    margin: auto;
+    color: rgb(119, 55, 9);
+    border-color: rgb(119, 55, 9);
+    background-color: antiquewhite;
+    margin-top: 2rem;
+    width: 5rem;
+}
+.btn-enviar:hover {
+    background-color: #D5AC8C;
+}
+.tituloRecetas {
+background-color: #212529;
+color: #D5AC8C;
+}
+.card {
+    background-color: #D5AC8C;
+    border: none;
+    min-height: 100%;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-body h5 {
+    color: rgb(119, 55, 9);
+}
+.card-body p {
+    color: #FFFAF4;
+}
+.btn-preparacion {
+    display: block;
+    margin: auto;
+    color: rgb(119, 55, 9);
+    background-color: #D5AC8C;
+    border-color: rgb(119, 55, 9);
+    margin-bottom: 2rem;
+    font-size: small;
+}
+.btn-preparacion:hover {
+    background-color: #b37f56;
+}
+.tituloEncontranos {
+    color: #D5AC8C;
+}
+footer {
+    background-color: black;
+    padding: 2rem 0 2rem 0;
+}
+footer img {
+    width: 10rem;
+    height: 10rem;
+}
+
+footer h5 {
+    color:#D5AC8C;
+    text-align: start;
+    font-size: larger;
+    padding: 0;
+}
+footer a {
+    text-decoration: none;
+    color: #D5AC8C;
+}
+footer a:hover {
+    color: rgb(119, 55, 9);
+}
+footer li {
+    text-align: start;
+    list-style-type: none;
+    padding: 1rem 0 0.5rem 0;
+    font-size: large;
+}
+.redes-sociales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redes-sociales a {
+    padding: 0.5rem;
+}
+footer iframe {
+    width: min-content;
+    height: min-content;
+}
+footer p {
+    color: #FFFAF4;
+}
 
 
 @media screen and (min-width:380px) and (max-width:580px) {
@@ -41,195 +264,4 @@
         margin-top: 3rem !important;
         margin: auto;
     }
-    .colorTitulo {
-        background-color: #212529;
-        color: #D5AC8C;
-    }
-    body {
-        background-color: #212529;
-    }
-    #fondoProductos {
-        margin: 0 5rem 0 5rem;
-    }
-    }
-    .fondoProducto {
-        background-color: rgb(10, 9, 9);
-
-    }
-    .imagenProd img {
-        height: calc(100%);
-        object-fit: cover;
-    }
-    .tituloProd {
-        display: flex;
-        justify-content: center;
-        color: #D5AC8C;
-        padding-top: 2.5rem;
-        padding-bottom: 1rem;
-    }
-    .descripcionProd {
-        display: flex;
-        justify-content: start;
-        color: #FFFAF4;
-        text-align: justify;
-        padding: 0 8rem;
-        max-height: fit-content;
-        
-    }
-    .presentacionProd {
-        display: flex;
-        justify-content: start;
-        color: #D5AC8C;
-        font-weight: bold;        
-        text-align: justify;
-        padding: 0 8rem;
-    }
-    .btn-producto {
-        display: block;
-        margin: auto;
-        color: #D5AC8C;
-        background-color: rgb(10, 9, 9);
-        border-color: #D5AC8C;
-        margin-bottom: 2rem;
-    }
-    .productoSec {
-        background-color: #D5AC8C;
-    }
-    .productoSec h3 {
-        display: flex;
-        justify-content: start;
-        color: rgb(119, 55, 9);
-        padding: 2.5rem 0 1rem 8rem;
-    }
-    .productoSec p {
-        display: flex;
-        justify-content: start;
-        color:#FFFAF4;
-        text-align: justify;
-        padding: 0 8rem
-    }
-    .productoSec p:nth-child(3) {
-        font-weight: bold;
-        color: rgb(119, 55, 9);
-    }
-    .productoSec button {
-        display: block;
-        margin:auto;
-        color: rgb(119, 55, 9);
-        border-color: rgb(119, 55, 9);
-        background-color: #D5AC8C;
-    }
-    .fondoProductoSec {
-        background-color: #D5AC8C;
-    }
-    .fondoProductoSec img {
-        width: calc(100%);
-        padding: 3rem 3rem 3rem 0
-    }
-    .titulo-info-sec {
-        color: #D5AC8C;
-    }
-    .icons {
-        display: flex;
-        color: #D5AC8C;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    .titulo-contacto {
-        color: #D5AC8C;
-    }
-    #contacto {
-        margin: 0 5rem 0 5rem;
-    }
-    .img-contacto img {
-        width: calc(100%);
-        height: calc(100%);
-        object-fit: cover;
-    }
-    .form-contacto {
-        display: flex;
-        flex-direction: column;
-        background-color: antiquewhite;
-        justify-content: center;
-        align-items: center;
-        color: rgb(119, 55, 9);
-    }
-   .form-contacto form {
-        display: flex;
-        flex-direction: column;
-   }
-   .form-contacto input {
-        background-color: rgb(119, 55, 9);
-        color: antiquewhite;
-   }
-   #consulta {
-        background-color: rgb(119, 55, 9);
-        color: antiquewhite;
-   }
-   .btn-enviar {
-        display: block;
-        margin: auto;
-        color: rgb(119, 55, 9);
-        border-color: rgb(119, 55, 9);
-        background-color: antiquewhite;
-        margin-top: 2rem;
-        width: 5rem;
-   }
-   .tituloRecetas {
-    background-color: #212529;
-    color: #D5AC8C;
-}
-    .card {
-        background-color: #D5AC8C;
-        border: none;
-        min-height: 100%;
-    }
-    .card-body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .card-body h5 {
-        color: rgb(119, 55, 9);
-    }
-    .card-body p {
-        color: #FFFAF4;
-    }
-    .btn-preparacion {
-        display: block;
-        margin: auto;
-        color: rgb(119, 55, 9);
-        background-color: #D5AC8C;
-        border-color: rgb(119, 55, 9);
-        margin-bottom: 2rem;
-        font-size: small;
-    }
-    .tituloEncontranos {
-        color: #D5AC8C;
-    }
-    footer h5 {
-        color:#D5AC8C;
-        text-align: start;
-        font-size: larger;
-        padding: 1rem;
-    }
-    footer a {
-        text-decoration: none;
-        color: #D5AC8C;
-    }
-    footer li {
-        text-align: start;
-        list-style-type: none;
-        padding: 0.5rem;
-        font-size: large;
-    }
-    .redes-sociales {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 2rem;
     }
